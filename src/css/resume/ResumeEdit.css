@@ -1,0 +1,168 @@
+.resume-edit-container {
+  padding-top: 44px;
+  padding-bottom: 80px;
+}
+
+.resume-edit-wrap {
+  margin-top: 21px;
+  width: 924px;
+  min-height: 2070px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  padding: 48px;
+  position: relative;
+}
+
+.resume-edit-wrap .b1:first-of-type {
+  margin-bottom: 29px;
+}
+
+.resume-edit-wrap .b1 {
+  color: var(--gray-7, #262c31);
+  display: block;
+  margin-bottom: 24px;
+}
+
+.resume-edit-wrap textarea {
+  width: 664px;
+  height: 197px;
+}
+
+.resume-edit-wrap .form-layout {
+  margin-bottom: 24px;
+}
+
+.resume-edit-save {
+  bottom: 50px;
+  right: 27px;
+}
+
+.resume-major-check span {
+  color: #282828;
+  font-size: 16px;
+  font-family: Pretendard;
+  line-height: 25px;
+}
+
+.resume-major-check > span:last-of-type {
+  color: #939393;
+}
+
+.resume-major-check input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  margin-top: 12px;
+  background: url("/public/img/checkbox-empty.svg") center center no-repeat;
+  border: none;
+}
+
+.resume-major-check input[type="checkbox"]:checked {
+  background: url("/public/img/table-checked.svg") center center no-repeat;
+}
+
+.major-check-form {
+  margin-bottom: 28px !important;
+  margin-top: -14px;
+}
+
+.resume-radio-container input[type="radio"]:checked {
+  background: url("/public/img/resume-radio.svg") center center no-repeat;
+}
+
+.resume-radio-container label {
+  color: var(--gray-01, #282828);
+  font-size: 14px;
+  font-family: Pretendard;
+  line-height: 22px;
+}
+
+.resume-radio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.career-period input {
+  width: 366px;
+  background: url(/public/img/career-calender.svg) 321px center no-repeat;
+}
+
+.qualification-link {
+  width: 366px;
+  height: 48px;
+  position: relative;
+}
+
+.qualification-link button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 65px;
+  height: 31px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Pretendard;
+  line-height: 22px;
+  border-radius: 8px;
+  border: 1px solid var(--primary, #ffc400);
+  background: var(--primary, #ffc400);
+}
+
+.qualification-link-file {
+  display: flex;
+  align-items: center;
+  width: 664px;
+  height: auto;
+  gap: 10px;
+}
+
+.qualification-link-file div {
+  border-radius: 50px;
+  background: var(--gray-06, #e9e9e9);
+  padding: 7px 15px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.qualification-link-file span {
+  color: var(--gray-01, #282828);
+  font-size: 16px;
+  font-family: Pretendard;
+  line-height: 25px;
+}
+
+.qualification-link-container {
+  margin-top: -14px;
+}
+
+.intro-upload-input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+.intro-upload-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 127px;
+  height: 51px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.intro-upload-label img {
+  margin-right: 3px;
+}
+
+.intro-upload-label span {
+  color: #282828;
+}

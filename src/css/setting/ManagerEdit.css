@@ -1,0 +1,68 @@
+.manager-edit-container {
+  padding-top: 44px;
+  padding-bottom: 59px;
+}
+
+.manager-edit-wrap {
+  margin-top: 21px;
+  width: 924px;
+  min-height: 856px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  padding: 48px;
+  position: relative;
+}
+
+.manager-edit-wrap .b1 {
+  color: #262c31;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.manager-edit-email {
+  color: var(--gray4);
+}
+
+.manager-edit-input .form-layout {
+  margin-bottom: 28px;
+}
+
+.manager-input-pw {
+  margin-bottom: 20px;
+}
+
+.manager-input-radio label,
+.manager-input-check label {
+  margin-right: 19px;
+  color: #262c31;
+}
+
+.manager-input-radio .foot-note {
+  display: block;
+  margin-top: 13px;
+  color: var(--brand-color-2, #a4856a);
+}
+
+.form-layout-radio {
+  margin-bottom: 28px;
+}
+
+.manage-check-title {
+  display: block;
+  margin-bottom: 13px;
+  font-weight: 700;
+  color: #262c31;
+}
+
+.manager-input-check {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.manager-edit-save {
+  bottom: 30px;
+  right: 27px;
+}

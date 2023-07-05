@@ -1,0 +1,45 @@
+.terms-container {
+  margin-top: 72px;
+}
+
+.terms-wrap {
+  margin-top: 26px;
+  width: 924px;
+  min-height: 55px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+.terms-wrap-close {
+  padding: 14px 20px 13px 20px;
+}
+
+.terms-wrap b1 {
+  display: block;
+}
+
+.terms-toggle-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.toggle-btn-close {
+  top: 14px;
+  transform: rotate(180deg);
+}
+
+.terms-textarea {
+  margin-top: 8px;
+  margin-bottom: 56px;
+}
+
+.terms-save {
+  bottom: 19px;
+  right: 20px;
+}

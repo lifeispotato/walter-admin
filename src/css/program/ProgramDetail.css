@@ -1,0 +1,45 @@
+.program-detail-container {
+  padding-top: 44px;
+  padding-bottom: 80px;
+}
+
+.program-detail-wrap {
+  margin-top: 21px;
+  width: 924px;
+  min-height: 835px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  padding: 48px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.program-detail-wrap > .b1 {
+  color: #262c31;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.program-detail-wrap .form-layout {
+  margin-bottom: 28px;
+}
+
+.program-detail-thumbnail {
+  height: 90px;
+}
+
+.program-summary-form {
+  margin-bottom: 65px !important;
+}
+
+.program-detail-wrap .detail-edit-btn {
+  position: absolute;
+  top: 53px;
+  right: 48px;
+  border-radius: 4px;
+  border: 1px solid var(--gray-2, #d7dbe0);
+  background: #fff;
+  padding: 3px 8px;
+}

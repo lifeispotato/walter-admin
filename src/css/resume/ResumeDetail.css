@@ -1,0 +1,26 @@
+.resume-detail-container {
+  padding-top: 44px;
+  padding-bottom: 80px;
+}
+
+.resume-detail-wrap {
+  margin-top: 21px;
+  width: 924px;
+  min-height: 835px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  padding: 48px;
+  position: relative;
+}
+
+.resume-detail-wrap > .b1 {
+  color: #262c31;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.resume-detail-wrap .form-layout {
+  margin-bottom: 24px;
+}

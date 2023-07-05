@@ -1,0 +1,30 @@
+.member-detail-container {
+  padding-top: 44px;
+  padding-bottom: 80px;
+}
+
+.member-detail-wrap {
+  margin-top: 21px;
+  width: 924px;
+  min-height: 327px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  padding: 48px;
+  position: relative;
+}
+
+.member-detail-wrap > .b1 {
+  color: #262c31;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.member-detail-wrap .form-layout {
+  margin-bottom: 24px;
+}
+
+.member-detail-wrap .form-layout:last-of-type {
+  margin-bottom: 0px;
+}

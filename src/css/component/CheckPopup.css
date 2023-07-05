@@ -1,0 +1,61 @@
+.check-popoup-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  height: auto;
+}
+
+.check-popup {
+  width: 344px;
+  min-height: 169px;
+  height: autopx;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #d7dbe0);
+  background: #fff;
+  padding: 40px 60px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.check-popup-content {
+  color: var(--gray-01, #282828);
+  text-align: center;
+  font-size: 16px;
+  font-family: Pretendard;
+  line-height: 25px;
+  display: block;
+}
+
+.popup-btn-container {
+  display: flex;
+  gap: 15px;
+}
+
+.popup-btn-container button {
+  width: 58px;
+  height: 39px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: Pretendard;
+  line-height: 25px;
+}
+
+.check-popup-btn {
+  border: 1px solid var(--primary, #ffc400);
+  background: var(--primary, #ffc400);
+  color: var(--white, #fff);
+}
+
+.check-popup-del {
+  color: var(--gray-01, #282828);
+  border: 1px solid var(--line, #d9d9d9);
+  background: var(--white, #fff);
+}

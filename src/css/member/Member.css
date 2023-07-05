@@ -1,0 +1,149 @@
+.member-container {
+  padding-top: 72px;
+  padding-bottom: 62px;
+}
+
+.member-filter-container {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.member-filter {
+  padding: 6px 13px;
+  border-radius: 21px;
+  background: var(--gray-04-semi-dark, #a3a7aa);
+}
+
+.member-filter span {
+  color: var(--white);
+}
+
+.btn-active {
+  color: #262c31;
+}
+
+.member-container > h2 {
+  margin-bottom: 27px;
+}
+
+.member-table {
+  margin-top: 18px;
+}
+
+.member-table-container {
+  margin-top: 23px;
+  position: relative;
+  width: 1043px;
+  height: auto;
+}
+
+.table-total-num > span:first-child {
+  color: #adb4ba;
+}
+.table-total-num > span:nth-child(2) {
+  color: #262c31;
+}
+
+.member-table th {
+  color: #778088;
+}
+
+.member-table td {
+  color: #6f6f6f;
+  font-size: 14px;
+  font-family: Pretendard;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.042px;
+}
+
+.member-table thead {
+  height: 41px;
+  background: #f2f4f5;
+}
+
+.member-table tbody tr {
+  height: 59px;
+}
+
+.member-table th:first-of-type,
+.member-table td:first-of-type {
+  padding-left: 20px;
+  text-align: left;
+  width: 89px;
+}
+
+.member-table th:nth-of-type(2),
+.member-table td:nth-of-type(2) {
+  text-align: left;
+  width: 185px;
+}
+
+.member-table th:nth-of-type(3),
+.member-table td:nth-of-type(3) {
+  text-align: left;
+  width: 223px;
+}
+
+.member-table th:nth-of-type(4),
+.member-table td:nth-of-type(4) {
+  padding-right: 93px;
+  text-align: center;
+  width: 173px;
+}
+
+.member-table td:nth-of-type(4) div {
+  width: 80px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  border: 1px solid var(--line, #d9d9d9);
+  background: var(--white, #fff);
+}
+
+.member-table td:nth-of-type(4) div span {
+  color: var(--gray-04, #939393);
+}
+
+.member-table th:nth-of-type(5),
+.member-table td:nth-of-type(5) {
+  text-align: left;
+  width: 146px;
+}
+
+.member-table th:nth-of-type(6),
+.member-table td:nth-of-type(6) {
+  padding-right: 73px;
+  text-align: center;
+  width: 137px;
+}
+
+.member-table th:nth-of-type(7),
+.member-table td:nth-of-type(7) {
+  text-align: center;
+  width: 102px;
+  padding-right: 45px;
+}
+
+.member-table .table-filter {
+  width: 90px;
+}
+
+.member-table .table-filter span {
+  font-weight: 600;
+  color: var(--gray-02, #383838);
+}
+
+.member-table input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.member-table input[type="checkbox"]:checked {
+  background: url("/public/img/table-checked.svg") center center no-repeat;
+}
+
+.member-table .table-submenu-container {
+  right: 71px;
+}

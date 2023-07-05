@@ -1,0 +1,121 @@
+.manager-container {
+  padding-top: 72px;
+  padding-bottom: 62px;
+}
+
+.manager-filter-container {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.manager-filter {
+  padding: 6px 13px;
+  border-radius: 21px;
+  background: var(--gray-04-semi-dark, #a3a7aa);
+}
+
+.manager-filter span {
+  color: var(--white);
+}
+
+.manager-container > h2 {
+  margin-bottom: 27px;
+}
+
+.manager-table {
+  margin-top: 18px;
+}
+
+.manager-table-container {
+  margin-top: 23px;
+  position: relative;
+  width: 1043px;
+  height: auto;
+}
+
+.table-total-num > span:first-child {
+  color: #adb4ba;
+}
+.table-total-num > span:nth-child(2) {
+  color: #262c31;
+}
+
+.manager-table th {
+  color: #778088;
+}
+
+.manager-table td {
+  color: #636c73;
+  font-size: 14px;
+  font-family: Pretendard;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.042px;
+}
+
+.manager-table thead {
+  height: 41px;
+  background: #f2f4f5;
+}
+
+.manager-table tbody tr {
+  height: 59px;
+}
+
+.manager-table th:first-of-type,
+.manager-table td:first-of-type {
+  padding-left: 20px;
+  text-align: left;
+  width: 139px;
+}
+
+.manager-table th:nth-of-type(2),
+.manager-table td:nth-of-type(2) {
+  text-align: left;
+  width: 135px;
+}
+
+.manager-table th:nth-of-type(3),
+.manager-table td:nth-of-type(3) {
+  text-align: left;
+  width: 117px;
+}
+
+.manager-table th:nth-of-type(4),
+.manager-table td:nth-of-type(4) {
+  padding-right: 38px;
+  text-align: center;
+  width: 125px;
+}
+
+.manager-table th:nth-of-type(5),
+.manager-table td:nth-of-type(5) {
+  padding-right: 40px;
+  text-align: center;
+  width: 124px;
+}
+
+.manager-table th:nth-of-type(6),
+.manager-table td:nth-of-type(6) {
+  text-align: left;
+  width: 262px;
+}
+
+.manager-table th:nth-of-type(7),
+.manager-table td:nth-of-type(7) {
+  text-align: center;
+  width: 49px;
+  padding-right: 8px;
+}
+
+.manager-table th:nth-of-type(8),
+.manager-table td:nth-of-type(8) {
+  text-align: left;
+  width: 94px;
+  padding-right: 29px;
+}
+
+.manager-table .table-submenu-container {
+  right: 38px;
+}

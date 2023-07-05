@@ -1,0 +1,36 @@
+.send-edit-container {
+  padding-top: 44px;
+  padding-bottom: 80px;
+}
+
+.send-edit-wrap {
+  margin-top: 21px;
+  width: 924px;
+  min-height: 835px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  padding: 48px;
+  position: relative;
+}
+
+.send-edit-wrap .b1 {
+  color: var(--gray-7, #262c31);
+  display: block;
+  margin-bottom: 18px;
+}
+
+.send-edit-wrap textarea {
+  width: 664px;
+  height: 197px;
+}
+
+.send-edit-wrap .form-layout {
+  margin-bottom: 28px;
+}
+
+.send-edit-save {
+  bottom: 29px;
+  right: 29px;
+}

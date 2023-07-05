@@ -1,0 +1,131 @@
+.recruit-detail-container {
+  padding-top: 44px;
+  padding-bottom: 80px;
+}
+
+.recruit-detail-wrap {
+  margin-top: 21px;
+  width: 924px;
+  min-height: 1065px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  padding: 48px;
+  position: relative;
+}
+
+.recruit-detail-wrap > .b1 {
+  color: #262c31;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.recruit-recruit-wrap {
+  margin-top: 24px;
+  width: 924px;
+  /* min-height: 737px; */
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  padding: 50px 48px;
+  position: relative;
+}
+
+.recruit-recruit-wrap .table-total-num {
+  margin-bottom: 31px;
+}
+
+.recruit-recruit-wrap .table-total-num .b1 {
+  color: #262c31;
+  display: block;
+}
+
+.recruit-recruit-wrap .table-total-num .c1 {
+  font-weight: 500;
+  color: var(--gray-6, #636c73);
+}
+
+.recruit-detail-wrap .form-layout {
+  margin-bottom: 20px;
+}
+
+.recruit-form-list ul {
+  width: 676px;
+}
+
+.recruit-form-list li {
+  color: var(--gray-02, #383838);
+  font-size: 16px;
+  font-family: Pretendard;
+  line-height: 25px;
+  display: flex;
+  gap: 5px;
+}
+
+.recruit-detail-table th {
+  color: #778088;
+}
+
+.recruit-detail-table td {
+  color: #383838;
+  font-size: 14px;
+  font-family: Pretendard;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.042px;
+}
+
+.recruit-detail-table thead {
+  height: 41px;
+  background: #f2f4f5;
+}
+
+.recruit-detail-table tbody tr {
+  height: 59px;
+}
+
+.recruit-detail-table th:first-of-type,
+.recruit-detail-table td:first-of-type {
+  padding-left: 30px;
+  text-align: left;
+  width: 435px;
+}
+
+.recruit-detail-table th:nth-of-type(2),
+.recruit-detail-table td:nth-of-type(2) {
+  text-align: left;
+  width: 163.5px;
+}
+
+.recruit-detail-table th:nth-of-type(3),
+.recruit-detail-table td:nth-of-type(3) {
+  padding-right: 32.5px;
+  text-align: center;
+  width: 122.5px;
+}
+
+.recruit-detail-table th:nth-of-type(4),
+.recruit-detail-table td:nth-of-type(4) {
+  padding-right: 50px;
+  text-align: center;
+  width: 107px;
+}
+
+.recruit-detail-table .table-filter {
+  width: 90px;
+}
+
+.recruit-detail-table .table-filter span {
+  width: 57px;
+  font-weight: 500;
+}
+
+.recruit-recruit-wrap .pagenation-container {
+  margin-bottom: 0;
+}
+
+.recruit-detail-table .table-submenu-container {
+  right: 32.5px;
+}

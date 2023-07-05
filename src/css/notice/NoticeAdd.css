@@ -1,0 +1,36 @@
+.notice-add-container {
+  padding-top: 44px;
+  padding-bottom: 80px;
+}
+
+.notice-add-wrap {
+  margin-top: 21px;
+  width: 924px;
+  min-height: 835px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  padding: 48px;
+  position: relative;
+}
+
+.notice-add-wrap .b1 {
+  color: var(--gray-7, #262c31);
+  display: block;
+  margin-bottom: 18px;
+}
+
+.notice-add-wrap textarea {
+  width: 664px;
+  height: 197px;
+}
+
+.notice-add-wrap .form-layout {
+  margin-bottom: 20px;
+}
+
+.notice-add-save {
+  bottom: 29px;
+  right: 27px;
+}

@@ -1,0 +1,78 @@
+.login-container {
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-wrap {
+  width: 514px;
+  height: 570px;
+  border-radius: 16px;
+  background: var(--white, #fff);
+  box-shadow: 4px 8px 36px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-wrap > span {
+  color: #000;
+  font-size: 36px;
+  font-family: Pretendard;
+  font-weight: 600;
+  line-height: 22px;
+  display: block;
+  margin-top: 87px;
+  margin-bottom: 59.92px;
+}
+
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 55px;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-input input {
+  width: 343px;
+}
+
+.login-input .b5 {
+  color: var(--gray-6, #636c73);
+}
+
+.login-btn-container {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-btn-container button {
+  width: 343px;
+  height: 48px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-family: Pretendard;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.login-btn {
+  background: var(--gray-05, #c0c0c0);
+  color: var(--white, #fff);
+}
+
+.join-btn {
+  border: 1px solid var(--gray-05, #c0c0c0);
+  background: var(--white, #fff);
+  color: var(--gray-04, #939393);
+}

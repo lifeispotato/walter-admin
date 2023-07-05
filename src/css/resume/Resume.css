@@ -1,0 +1,137 @@
+.resume-container {
+  padding-top: 72px;
+  padding-bottom: 62px;
+}
+
+.resume-filter-container {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.resume-filter {
+  padding: 6px 13px;
+  border-radius: 21px;
+  background: var(--gray-04-semi-dark, #a3a7aa);
+}
+
+.resume-filter span {
+  color: var(--white);
+}
+
+.btn-active {
+  color: #262c31;
+}
+
+.resume-container > h2 {
+  margin-bottom: 27px;
+}
+
+.resume-table {
+  margin-top: 18px;
+}
+
+.resume-table-container {
+  margin-top: 23px;
+  position: relative;
+  width: 1043px;
+  height: auto;
+}
+
+.table-total-num > span:first-child {
+  color: #adb4ba;
+}
+.table-total-num > span:nth-child(2) {
+  color: #262c31;
+}
+
+.resume-table th {
+  color: #778088;
+}
+
+.resume-table td {
+  color: #383838;
+  font-size: 14px;
+  font-family: Pretendard;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.042px;
+}
+
+.resume-table thead {
+  height: 41px;
+  background: #f2f4f5;
+}
+
+.resume-table tbody tr {
+  height: 59px;
+}
+
+.resume-table th:first-of-type,
+.resume-table td:first-of-type {
+  padding-left: 20px;
+  text-align: left;
+  width: 89px;
+}
+
+.resume-table th:nth-of-type(2),
+.resume-table td:nth-of-type(2) {
+  text-align: left;
+  width: 193px;
+}
+
+.resume-table th:nth-of-type(3),
+.resume-table td:nth-of-type(3) {
+  text-align: left;
+  width: 144px;
+}
+
+.resume-table th:nth-of-type(4),
+.resume-table td:nth-of-type(4) {
+  padding-right: 40px;
+  text-align: left;
+  width: 130px;
+}
+
+.resume-table th:nth-of-type(5),
+.resume-table td:nth-of-type(5) {
+  text-align: left;
+  width: 248px;
+}
+
+.resume-table th:nth-of-type(6),
+.resume-table td:nth-of-type(6) {
+  padding-right: 73px;
+  text-align: center;
+  width: 137px;
+}
+
+.resume-table th:nth-of-type(7),
+.resume-table td:nth-of-type(7) {
+  text-align: center;
+  width: 102px;
+  padding-right: 45px;
+}
+
+.resume-table .table-filter {
+  width: 90px;
+}
+
+.resume-table .table-filter span {
+  width: 57px;
+  font-weight: 500;
+}
+
+.resume-table input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.resume-table input[type="checkbox"]:checked {
+  background: url("/public/img/table-checked.svg") center center no-repeat;
+}
+
+.resume-table .table-submenu-container {
+  right: 40px;
+}

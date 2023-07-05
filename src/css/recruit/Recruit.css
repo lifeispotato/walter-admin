@@ -1,0 +1,146 @@
+.recruit-container {
+  padding-top: 72px;
+  padding-bottom: 62px;
+}
+
+.recruit-filter-container {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.recruit-filter {
+  padding: 6px 13px;
+  border-radius: 21px;
+  background: var(--gray-04-semi-dark, #a3a7aa);
+}
+
+.recruit-filter span {
+  color: var(--white);
+}
+
+.btn-active {
+  color: #262c31;
+}
+
+.recruit-container > h2 {
+  margin-bottom: 27px;
+}
+
+.recruit-table {
+  margin-top: 18px;
+}
+
+.recruit-table-container {
+  margin-top: 23px;
+  position: relative;
+  width: 1043px;
+  height: auto;
+}
+
+.table-total-num > span:first-child {
+  color: #adb4ba;
+}
+.table-total-num > span:nth-child(2) {
+  color: #262c31;
+}
+
+.recruit-table th {
+  color: #778088;
+}
+
+.recruit-table td {
+  color: #383838;
+  font-size: 14px;
+  font-family: Pretendard;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.042px;
+}
+
+.recruit-table thead {
+  height: 41px;
+  background: #f2f4f5;
+}
+
+.recruit-table tbody tr {
+  height: 59px;
+}
+
+.recruit-table th:first-of-type,
+.recruit-table td:first-of-type {
+  padding-left: 20px;
+  text-align: left;
+  width: 89px;
+}
+
+.recruit-table th:nth-of-type(2),
+.recruit-table td:nth-of-type(2) {
+  text-align: left;
+  width: 193px;
+}
+
+.recruit-table td:nth-of-type(2) span {
+  display: block;
+  width: 164px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.recruit-table th:nth-of-type(3),
+.recruit-table td:nth-of-type(3) {
+  text-align: left;
+  width: 144px;
+}
+
+.recruit-table th:nth-of-type(4),
+.recruit-table td:nth-of-type(4) {
+  padding-right: 40px;
+  text-align: left;
+  width: 130px;
+}
+
+.recruit-table th:nth-of-type(5),
+.recruit-table td:nth-of-type(5) {
+  text-align: left;
+  width: 248px;
+}
+
+.recruit-table th:nth-of-type(6),
+.recruit-table td:nth-of-type(6) {
+  padding-right: 73px;
+  text-align: center;
+  width: 137px;
+}
+
+.recruit-table th:nth-of-type(7),
+.recruit-table td:nth-of-type(7) {
+  text-align: center;
+  width: 102px;
+  padding-right: 45px;
+}
+
+.recruit-table .table-filter {
+  width: 90px;
+}
+
+.recruit-table .table-filter span {
+  width: 57px;
+  font-weight: 500;
+}
+
+.recruit-table input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.recruit-table input[type="checkbox"]:checked {
+  background: url("/public/img/table-checked.svg") center center no-repeat;
+}
+
+.recruit-table .table-submenu-container {
+  right: 40px;
+}

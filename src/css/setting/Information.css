@@ -1,0 +1,30 @@
+.infomation-container {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.infomation-edit-wrap {
+  width: 924px;
+  height: 786px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-2, #dfe1e4);
+  background: #fff;
+  margin-top: 26px;
+  padding: 48px;
+  position: relative;
+}
+
+.infomation-edit-wrap .b1 {
+  display: block;
+  color: var(--gray-7, #262c31);
+  margin-bottom: 18px;
+}
+
+.infomation-edit-input .form-layout {
+  margin-bottom: 28px;
+}
+
+.information-save {
+  bottom: 28px;
+  right: 28px;
+}
